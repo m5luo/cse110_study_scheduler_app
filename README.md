@@ -37,3 +37,7 @@ Run the backend server on `localhost:8080`
 ```
 npm start
 ```
+
+Add Unit Tests:
+---
+For each new method added for an object (e.g. `User`, `Event`, `Notes`, etc.), create a file named `<object>.test.tsx` if no such file already exitst. Add a test for testing the new method.
